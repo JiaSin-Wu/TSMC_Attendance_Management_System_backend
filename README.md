@@ -6,7 +6,7 @@
 2. `git checkout {branch_name}`
 
 #### Set up .env
-Copy `env.example` to a new file named `.env` at the root of the project
+Copy `env.example` to a new file named `.env` at the root of the project.<br>
 Note: This file is used to configure database access, JWT keys, and other environment variables.
 #### Make sure to push on the correct branch]
 `git push origin {branch_name}`
