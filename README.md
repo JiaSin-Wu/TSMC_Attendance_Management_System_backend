@@ -2,10 +2,10 @@
 ### Dev_process
 
 #### 1. Clone the Repository
-```bash
+``bash
 git clone git@github.com:JiaSin-Wu/TSMC_Attendance_Management_System_backend.git
 cd TSMC_Attendance_Management_System_backend
-git checkout {branch_name}```
+git checkout {branch_name}``
 
 #### 2. Set up .env
 `cp env.example .env`
