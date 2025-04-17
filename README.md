@@ -1,16 +1,23 @@
 # TSMC_Attendance_Management_System_backend
 ### Dev_process
 
-#### clone the repo and make sure to work on the correct branch
-1. `git clone git@github.com:JiaSin-Wu/TSMC_Attendance_Management_System_backend.git`
-2. `git checkout {branch_name}`
+#### 1. Clone the Repository
+```bash
+git clone git@github.com:JiaSin-Wu/TSMC_Attendance_Management_System_backend.git
+cd TSMC_Attendance_Management_System_backend
+git checkout {branch_name}```
 
-#### Set up .env
-Copy `env.example` to a new file named `.env` at the root of the project.<br>
+#### 2. Set up .env
+`cp env.example .env`
 Note: This file is used to configure database access, JWT keys, and other environment variables.
-#### Make sure to push on the correct branch]
+#### 3. Create and Activate a Virtual Environment
+- venv
+- conda
+#### 4. Install dependencies
+`pip install -r requirements.txt`
+#### 5. Make sure to push on the correct branch
 `git push origin {branch_name}`
-### app folder
+### Folder Introduction
 1. app/controllers : Handle API requests and return responses
 2. app/services : 	Core business logic processing
 3. app/repo. : Database operations
