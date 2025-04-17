@@ -32,8 +32,10 @@ https://docs.google.com/document/d/10eDYDAqADlW-cB73Pd6kmNkwoJHZ300uVCMQTq4qh74/
 https://hackmd.io/ntbtCmr8RVSqbkwsbqMvoA
 
 #### Initialization
-`cd scripts`
-`bash init_db.sh`
+```bash
+cd scripts
+bash init_db.sh
+```
 
 #### Connection
 VM IP：34.81.154.2
