@@ -4,3 +4,7 @@ Flask==3.1.0
 # for config.py
 python-dotenv==1.1.0
 
+
+
+pytes==8.3.5
+
